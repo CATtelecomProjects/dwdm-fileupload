@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Main page css*/
+body {
+	font-family:Tahoma, Verdana, Geneva, sans-serif;
+	font-size:11px;
+	margin: 0 0 0 0;
+	color:#666;
+	background-color:#FFF;
+}
+/* Demos */
+
+.nav, .nav dt, .nav dd, .nav ul, .nav li {
+	margin: 0;
+	padding: 0
+}
+.nav {
+	float: left;
+	width:100%;
+}
+.nav dt, .nav h4 {
+	margin: 0;
+	padding: 0;
+	font: normal  Tahoma;
+	color: #e87b10;
+}
+.nav dt, .nav h4 {
+	margin-bottom: 0;
+	padding-left: 8px;
+	padding-bottom:5px;
+	line-height: 1.2em;
+	border-bottom: 1px solid #F4F4F4;
+}
+.nav dd a, .nav li a {
+	border-bottom: 1px solid #F4F4F4;
+	display:block;
+	padding: 4px 3px 4px 8px;
+	text-decoration: none;
+	color: #555;
+	margin:2px 0;
+	height:13px;
+}
+.nav dd a:hover, .nav dd a:focus, .nav dd a:hover, .nav dd a:focus {
+	background: #f3f3f3;
+	color:#000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.nav dd a.selected {
+	background: #555;
+	color:#ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+/* new styles for demo pages, added by Filament 12.29.08
+eventually we should convert the font sizes to ems -- using px for now to minimize style conflicts
+*/
+
+.normal h3.header {
+	font-size:32px;
+	padding:0 0 5px;
+	border-bottom:1px solid #eee;
+	text-transform: capitalize;
+}
+.normal h4.subheader {
+	text-transform: uppercase;
+	color:#999;
+	padding:8px 0 3px;
+	border:0;
+	margin:0;
+}
+.normal a:link, .normal a:visited {
+	color:#1b75bb;
+	text-decoration:none;
+}
+.normal a:hover, .normal a:active {
+	color:#0b559b;
+}
+.demoHeaders {
+	margin-top: 0em;
+}
+#dialog_link {
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+#dialog_link span.ui-icon {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+ul#icons {
+	margin: 0;
+	padding: 0;
+}
+ul#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+ul#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+.font-normal {
+	font-family:Tahoma;
+	
+}
+.font-small {
+	font-family:Tahoma;
+	font-size:10px;
+	color:#666;
+}
+input, select, textarea {
+	font-family:Tahoma;
+	font-size:11px;
+	color : #000000;
+	border: solid 1px #bbb;
+	border-radius:3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;/*
+	-moz-box-shadow: 0 0 1px #888;
+	-webkit-box-shadow: 0 0 1px #888;
+	box-shadow:  0 0 1px #888;
+*/
+}
+.input {
+	font-family:Tahoma;
+	color : #000000;
+	border: solid 1px #bbb;
+}
+.txt_header {
+	font-weight:bold;
+}
+.header_height {
+	height:18px;
+}
+#divMsg {
+	display:none;
+	position:absolute;
+	left:500px;
+	top:0px;
+	z-index:1000;
+	color: #0C0;
+	border-style:solid;
+	background-color: #FFFFD9;
+	border-width: 1px;
+	text-align: center;
+	padding: 5px;
+	width: 200px;
+	border-color: #FC0;
+}
+#divMsgDiag {
+	display:none;
+	position:relative;
+	background-image:url(../images/s_success.png);
+	background-repeat:no-repeat;
+	color: #0C0;
+	font-weight : bold;
+	/*border-style:solid;
+	background-color: #FFFFD9;
+	border-width: 1px;*/
+	text-align: left;
+	padding: 0px 5px 5px 20px;
+	text-indent: 50;
+	width: 200px;
+	border-color: #FC0;
+}
+#ajaxloading {
+	display:none;
+	position:relative;
+	background-image:url(../images/loading.gif);
+	background-repeat:no-repeat;
+	padding: 0px 5px 5px 20px;
+	text-indent: 50;
+	text-align: left;
+}
+.alCenter {
+	text-align:center;
+}
+.alRight {
+	text-align:right;
+}
+.disabled {
+	background-color:#f9F9f9;
+	color:#009;
+	border-color:#eeeeee;
+}
